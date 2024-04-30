@@ -1,0 +1,3 @@
+A importância do uso do Princípio de Demeter está em promover a encapsulação e reduzir o acoplamento entre objetos, tornando o código mais modular, fácil de entender e manter. Além disso, o princípio ajuda a evitar dependências excessivas, facilitando a reutilização de código e melhorando a flexibilidade do sistema como um todo.
+No exemplo 1, onde não é usado o Princípio de Demeter, permite que o objeto "Engine" seja acessado, fazendo com que cliente precise conhecer a estrutura interna desse objeto.
+Já no exemplo 2, a classe "Car" possui um método "startEngine()" que encapsula a lógica de inicialização do motor. Isso evita que o cliente (a função "main()") precise conhecer a estrutura interna da classe "Car" ou do objeto "Engine".
