@@ -5,15 +5,15 @@ class Engine{
 
 class Car{
    private:
-      Engine engine;
+      Engine* engine;
    public:
-      Engine getEngine(){
+      Engine* getEngine(){
          return this->engine;
       }
 };
 
 int main(){
    Car car;
-   car.getEngine.start();
+   car.getEngine->start();
    return 0;
 }
