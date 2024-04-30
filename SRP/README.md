@@ -1,7 +1,3 @@
-
-## Single Responsibility Principle
-
-Nesse princípio, cada classe ou módulo, deve ter somente uma responsabilidade no sistema.
-
-
-
+A importância do uso do Princípio da Responsabilidade Única está em promover a coesão e a modularidade do código. Ao separar as responsabilidades em classes distintas, torna-se mais fácil entender, modificar e testar o código. Além disso, o princípio ajuda a evitar a proliferação de código redundante e a reduzir o acoplamento entre classes.
+No exemplo 1, a classe "Calculator" tem várias responsabilidades. Ela é responsável por coletar os números e a operação na interface, além de realizar o cálculo. Isso viola o princípio, pois uma classe deve ter apenas uma responsabilidade.
+No exemplo 2, a classe "Interface" é responsável por coletar o número e a operação na interface, enquanto a classe "Calculator" é responsável apenas por realizar o cálculo. Dessa forma, cada classe tem uma responsabilidade única e bem definida.
